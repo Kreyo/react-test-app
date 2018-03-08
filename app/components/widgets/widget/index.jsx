@@ -8,7 +8,7 @@ export default function Widget({ data = { items: [], type: 'form' } }) {
     case 'form':
       return <Form items={data.items} name={data.name} />;
     case 'section':
-      return <Section items={data.items} name={data.name} />;
+      return <Section items={data.items} header={data.header} columns={data.columns} />;
     case 'input':
     case 'currency':
       return <Input {...data} />;

@@ -1,5 +1,91 @@
-$color: #262828;
-
+$green: #03964a;
 body {
-  color: $color;
+  background-color: rgb(15, 102, 120);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+h4 {
+  color: $green;
+  line-height: 0;
+  font-weight: 400;
+}
+
+.widgets-container {
+  width: 710px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 7px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px #222;
+}
+
+.form--header {
+  padding: 15px;
+  text-align: center;
+
+  .link {
+    font-weight: 100;
+  }
+
+  .link, h3 {
+    display: inline-block;
+    text-decoration: none;
+
+    &--cancel {
+      float: left;
+      color: #ee627c;
+    }
+
+    &--submit {
+      float: right;
+      color: $green;
+    }
+  }
+
+  h3 {
+    margin: 0 auto;
+    color: $green;
+    font-weight: 500;
+  }
+}
+
+.section--header {
+  background-color: #f2f7f4;
+  padding: 5px 0 5px 15px;
+  border: 1px solid #ddd;
+}
+
+.section--items {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+
+  .item {
+    flex: 0 100%;
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    padding: 5px;
+
+    label {
+      color: #6a6a6a;
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+
+  }
+
+  &.columns-2 .item {
+    flex: 0 48%;
+  }
+
+  &.columns-3 .item {
+    flex: 0 31%;
+  }
+}
+
+

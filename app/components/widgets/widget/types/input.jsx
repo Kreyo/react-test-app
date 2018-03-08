@@ -20,7 +20,7 @@ export default function Input({
     }
   };
   return (
-    <div className="input">
+    <div className="item">
       <label>{label}</label>
       {renderInputType()}
     </div>);

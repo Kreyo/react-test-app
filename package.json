@@ -11,7 +11,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "coverage": "jest --coverage",
-    "precommit": " npm test",
+    "precommit": " npm test"
   },
   "author": "Kliment Petrov <kleopetroff@gmail.com>",
   "license": "MIT",
