@@ -28,10 +28,7 @@
     },
     "testMatch": [
       "**/?(*.)(spec|test).js?(x)"
-    ],
-    "transform": {
-      "\\.js$": "babel-jest"
-    }
+    ]
   },
   "dependencies": {
     "cross-env": "5.1.2",

@@ -11,9 +11,4 @@ Forked and mutilated version of https://github.com/KleoPetroff/react-webpack-boi
 ## Available Commands
 
 - `npm start` - start the dev server
-- `npm clean` - delete the dist folder
-- `npm run production` - create a production ready build in `dist` folder
-- `npm run lint` - execute an eslint check
 - `npm test` - run all tests
-- `npm run test:watch` - run all tests in watch mode
-- `npm run coverage` - generate code coverage report in the `coverage` folder
